@@ -6,7 +6,7 @@ export function renderRestaurantsList(restaurants) {
     restaurantElement.classList.add('restaurant-item');
 
     restaurantElement.innerHTML = `
-      <img src="${restaurant.pictureUrl}" alt="${restaurant.name}">
+      <img src="https://restaurant-api.dicoding.dev/images/small/${restaurant.pictureId}" alt="${restaurant.name}">
       <div class="restaurant-item__detail">
         <h3>${restaurant.name}</h3>
         <p>${restaurant.description}</p>
