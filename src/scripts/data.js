@@ -98,7 +98,7 @@ const restaurantsJson = `
 }
 `;
 
-function getAllRestaurants() {
+export function getAllRestaurants() {
   const { restaurants } = JSON.parse(restaurantsJson);
   return restaurants;
 }

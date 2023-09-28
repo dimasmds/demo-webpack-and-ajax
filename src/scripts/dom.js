@@ -1,4 +1,4 @@
-function renderRestaurantsList(restaurants) {
+export function renderRestaurantsList(restaurants) {
   const restaurantsListElement = document.querySelector('#restaurantsList');
 
   restaurants.forEach((restaurant) => {
