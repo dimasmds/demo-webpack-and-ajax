@@ -1,5 +1,3 @@
-# SIB 2022 ILT 5 PWA Demo
-
 ## Aplikasi Restaurant Catalogue
 Ubahlah aplikasi katalog restoran berikut agar memiliki sifat PWA seperti:
 * Dapat diinstal pada homescreen.
